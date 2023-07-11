@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD033 -->
+<!-- x-hide-in-docs-start -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/open-feature/community/0e23508c163a6a1ac8c0ced3e4bd78faafe627c7/assets/logo/horizontal/white/openfeature-horizontal-white.svg">
@@ -26,6 +27,7 @@
 
 Standardizing feature flags unifies tools and vendors behind a common interface which avoids vendor lock-in at the code level. Additionally, it offers a framework for building extensions and integrations and allows providers to focus on their unique value proposition.
 
+<!-- x-hide-in-docs-end -->
 ## 🔍 Requirements:
 
 - Go 1.18+
@@ -71,7 +73,7 @@ func main() {
 }
 ```
 
-A list of available providers can be found [here](https://openfeature.dev/docs/reference/technologies/server/go).
+A list of available providers can be found [here](https://openfeature.dev/ecosystem?instant_search%5BrefinementList%5D%5Btype%5D%5B0%5D=Provider&instant_search%5BrefinementList%5D%5Btechnology%5D%5B0%5D=Go).
 
 For complete documentation, visit: https://openfeature.dev/docs/category/concepts
 
@@ -201,6 +203,7 @@ c := openfeature.NewClient("log").WithLogger(l) // set the logger at client leve
 [logr](https://github.com/go-logr/logr) uses incremental verbosity levels (akin to named levels but in integer form).
 The SDK logs `info` at level `0` and `debug` at level `1`. Errors are always logged.
 
+<!-- x-hide-in-docs-start -->
 ## ⭐️ Support the project
 
 - Give this repo a ⭐️!
@@ -226,4 +229,5 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 [Apache License 2.0](LICENSE)
 
+<!-- x-hide-in-docs-end -->
 [openfeature-website]: https://openfeature.dev
